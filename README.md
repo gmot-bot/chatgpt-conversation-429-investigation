@@ -1,5 +1,7 @@
 # ChatGPT Historical Chats / Conversations Failing to Open
 
+> **Need help quickly?** [10-second status](STATUS.md) · [Community Help](HELP.md) · [Known Problems](docs/known-problems.md) · [Workarounds](docs/workarounds-and-solutions.md) · [Discussions](https://github.com/gmot-bot/chatgpt-conversation-429-investigation/discussions) · [New report](https://github.com/gmot-bot/chatgpt-conversation-429-investigation/issues/new/choose) · [GitHub in 60 seconds](docs/github-for-beginners.md)
+
 ## Community status — 10-second view
 
 **[Are others reporting this? What do we know? Is there a workaround? Is it resolved? Where do I get help? → STATUS](STATUS.md)**

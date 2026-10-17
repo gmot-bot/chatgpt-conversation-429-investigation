@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+### V4.5.1 - Navigation & maintenance hardening
+- Converted the beginner GitHub guide into direct links to Discussions, new Discussion, new Issue/report, Help, Status, Known Problems and Workarounds.
+- Added a high-visibility README action bar for non-technical visitors.
+- Documented repository-name/URL discoverability candidates without crossing the rename human gate.
+- Added a local perpetual maintenance command that collects public GitHub state into a private/local review snapshot without auto-publishing causal claims.
+
 ### V4.3 — Community Status & Navigation
 - Added a 10-second community status page.
 - Added Known Problems / Recently Reported.
