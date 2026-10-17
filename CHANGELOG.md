@@ -2,6 +2,20 @@
 
 ## Unreleased
 
+### V4.3 — Community Status & Navigation
+- Added a 10-second community status page.
+- Added Known Problems / Recently Reported.
+- Added browse-by-error and browse-by-platform indexes.
+- Added controlled contribution-to-status update protocol.
+- Added explicit contextual linkage to official OpenAI status.
+
+### V4.4 — Evidence Dashboard baseline
+- Added a privacy-preserving dashboard schema.
+- Numerical tables remain gated until normalization, deduplication and privacy review pass.
+- No charts until denominators and missing-data handling support responsible interpretation.
+- Community frequency remains explicitly distinct from ChatGPT-wide prevalence.
+
+
 ### V4.1 - Community UX & Knowledge Base
 - Added mobile/non-technical Community Help Centre routing.
 - Added Did This Help, Workarounds & Solutions, similar-report index and GitHub-in-60-seconds guidance.

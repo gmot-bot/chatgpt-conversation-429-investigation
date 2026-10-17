@@ -1,5 +1,10 @@
 # Community Help Centre
 
+## Current status first
+
+Open the [10-second Community Status](../STATUS.md) or [Known Problems / Recently Reported](known-problems.md) before creating a new report. This reduces duplicates and gets visitors to known safe information faster.
+
+
 **Having trouble with ChatGPT conversations or history? Start here. No technical knowledge required.**
 
 > Unofficial community project. We cannot access your ChatGPT account and we are not OpenAI Support.

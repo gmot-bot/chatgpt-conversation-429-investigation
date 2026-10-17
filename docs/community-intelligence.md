@@ -1,5 +1,8 @@
 # Community Intelligence — Privacy-Preserving Aggregate View
 
+**Dashboard:** [Evidence Dashboard](evidence-dashboard.md) — numerical publication remains gated until normalization, deduplication and privacy review pass.
+
+
 **Purpose:** summarize public, voluntarily submitted observations without identifying contributors and without presenting repository frequency as ChatGPT-wide prevalence.
 
 ## Critical interpretation rule

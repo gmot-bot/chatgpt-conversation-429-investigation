@@ -1,5 +1,10 @@
 # Community Help — Start Here
 
+**Want the fastest current picture?** Open [Community Status](STATUS.md): others reporting it → what we know → workaround → resolved? → help.
+
+Browse directly [by error](docs/index-by-error.md), [by platform](docs/index-by-platform.md), or see [Known Problems / Recently Reported](docs/known-problems.md).
+
+
 > **Unofficial community project.** This repository cannot access your ChatGPT account, recover a conversation for you, or act as OpenAI Support.
 
 If a ChatGPT conversation will not open, your history is not loading, or you see an error such as `Too many requests`, you do **not** need technical knowledge to use this page.

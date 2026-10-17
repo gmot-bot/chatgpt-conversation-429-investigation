@@ -1,6 +1,6 @@
 # ChatGPT Error Status — Community View
 
-This page combines three different status concepts that must not be confused.
+This page combines three different status concepts that must not be confused. For the shortest view, use the [10-second status](../STATUS.md).
 
 ## 1. Official service status
 

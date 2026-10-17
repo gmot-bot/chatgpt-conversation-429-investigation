@@ -1,4 +1,11 @@
 # ChatGPT Historical Chats / Conversations Failing to Open
+
+## Community status — 10-second view
+
+**[Are others reporting this? What do we know? Is there a workaround? Is it resolved? Where do I get help? → STATUS](STATUS.md)**
+
+Browse: [Known Problems](docs/known-problems.md) · [By error](docs/index-by-error.md) · [By platform](docs/index-by-platform.md) · [Evidence Dashboard](docs/evidence-dashboard.md) · [Official OpenAI status context](docs/official-status-context.md)
+
 ## HTTP 429, Conversation Retrieval and Realtime Recovery — An Independent Technical Investigation
 
 **Status:** Active investigation  
