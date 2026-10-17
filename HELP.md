@@ -4,6 +4,16 @@
 
 If a ChatGPT conversation will not open, your history is not loading, or you see an error such as `Too many requests`, you do **not** need technical knowledge to use this page.
 
+## Fastest route
+
+**On a phone:** tap one link, then use your browser Back button to return here.
+
+- **See current status:** [ChatGPT Error Status](docs/chatgpt-error-status.md)
+- **Find safe workarounds:** [Workarounds & Solutions](docs/workarounds-and-solutions.md)
+- **See similar reports:** [Other People Are Seeing This](docs/people-are-seeing-this.md)
+- **New to GitHub:** [GitHub in 60 Seconds](docs/github-for-beginners.md)
+- **Tell us whether something helped:** [Did This Help?](docs/did-this-help.md)
+
 ## What problem are you seeing?
 
 | What you see | Start here |

@@ -1,0 +1,41 @@
+title: "[Question] "
+labels: ["community-help"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ask in ordinary language. Search the Error Library and existing Q&A first so answers remain easy to find. An accepted answer can help later visitors, but a workaround is not automatically proof of root cause.
+  - type: textarea
+    id: question
+    attributes:
+      label: What would you like help understanding?
+    validations:
+      required: true
+  - type: dropdown
+    id: symptom
+    attributes:
+      label: Closest symptom
+      options:
+        - Conversation will not open
+        - Too many requests / HTTP 429
+        - History not loading
+        - Visible/searchable but will not open
+        - Couldn't refresh messages
+        - Resume stream unavailable
+        - Other / unsure
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: What safe step have you already tried?
+      description: “None” is a valid answer. Do not repeat failures just to fill this in.
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: I removed private identifiers, secrets and private conversation content.
+          required: true

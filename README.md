@@ -4,6 +4,13 @@
 **Status:** Active investigation  
 **Root cause:** **NOT DETERMINED**
 
+## Community Help Centre
+
+**Non-technical visitor?** Open the [Community Help Centre](docs/community-home.md): find your error, see what is known, check safe workarounds, find similar reports, ask the community, or learn GitHub in 60 seconds.
+
+- [Current error status](docs/chatgpt-error-status.md) | [Workarounds & Solutions](docs/workarounds-and-solutions.md) | [Other people are seeing this](docs/people-are-seeing-this.md)
+- [Did this help?](docs/did-this-help.md) | [GitHub in 60 seconds](docs/github-for-beginners.md) | [Community Intelligence](docs/community-intelligence.md)
+
 ## Need help? No technical knowledge required
 
 If a ChatGPT conversation will not open, your history is not loading, or you see an error message, start with **[Community Help](HELP.md)**. Use the [Error & Problem Library](docs/error-library.md) to find your symptom, read safe steps, compare similar reports, or ask the community.

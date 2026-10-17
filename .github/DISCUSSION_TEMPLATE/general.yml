@@ -1,0 +1,50 @@
+title: "[Help / Experience] "
+labels: ["community-help"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **No technical knowledge required.** Before posting, check the Error Library and the existing discussions. Never post passwords, tokens, cookies, email addresses, account/conversation/request IDs, IP addresses, precise locations, private chats or raw HAR files. Do not generate repeated traffic to reproduce a failure.
+  - type: dropdown
+    id: symptom
+    attributes:
+      label: What are you seeing?
+      options:
+        - Conversation will not open
+        - Too many requests / HTTP 429
+        - History or old chats not loading
+        - Visible/searchable but will not open
+        - Couldn't refresh messages
+        - Resume stream unavailable
+        - Repeated loading/retry
+        - Other / unsure
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Broad platform
+      options: [Web, Windows, macOS, Android, iOS / iPadOS, Work / Project, Other, Unknown]
+    validations:
+      required: true
+  - type: textarea
+    id: experience
+    attributes:
+      label: What happened?
+      description: Ordinary language is fine. Include exact error wording only if it contains no private content.
+    validations:
+      required: true
+  - type: dropdown
+    id: existing
+    attributes:
+      label: Did you check for an existing similar discussion?
+      options: [Yes, No / I need help finding it]
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety
+      options:
+        - label: I removed private information and did not deliberately generate repeated traffic to complete this report.
+          required: true

@@ -2,6 +2,17 @@
 
 ## Unreleased
 
+### V4.1 - Community UX & Knowledge Base
+- Added mobile/non-technical Community Help Centre routing.
+- Added Did This Help, Workarounds & Solutions, similar-report index and GitHub-in-60-seconds guidance.
+- Added periodic community triage and Discussion form templates to reduce duplicates.
+
+### V4.2 - Community Intelligence
+- Added privacy-preserving aggregate schema and interpretation safeguards.
+- Added community/official/root-cause status separation.
+- Explicitly forbids interpreting repository report frequency as global ChatGPT prevalence.
+
+
 ### V4 - Community Help & Error Library
 - Added a non-technical help landing page and problem finder.
 - Added an Error & Problem Library and six symptom/error pages.
