@@ -1,0 +1,52 @@
+name: Independent reproduction
+about: Report independently observed evidence without publishing sensitive identifiers
+labels: ["needs-evidence"]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not publish account IDs, conversation IDs, request IDs, IP addresses, cookies, tokens, emails, precise locations, private support data or unrelated conversation content. Do not intentionally generate repeated failures or bypass rate limits."
+  - type: dropdown
+    id: evidence_class
+    attributes:
+      label: Evidence class
+      options:
+        - Related symptom report
+        - Independent symptom reproduction
+        - Independent HTTP reproduction
+        - Mechanism evidence
+        - Hypothesis / analysis
+    validations:
+      required: true
+  - type: textarea
+    id: symptom
+    attributes:
+      label: What did you observe?
+      description: Describe the user-visible symptom and what remained visible/searchable.
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Platform and browser/app family
+      placeholder: "Example: Windows + Chromium-based browser (coarse details only)"
+  - type: input
+    id: http_status
+    attributes:
+      label: HTTP status, if directly observed
+      placeholder: "Example: 429; leave blank if not inspected"
+  - type: textarea
+    id: mechanism
+    attributes:
+      label: Realtime/recovery evidence, if directly observed
+      description: Do not infer mechanism evidence from the symptom alone.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy and safe-observation confirmation
+      options:
+        - label: I removed unique personal/account/conversation/request/network identifiers and secrets.
+          required: true
+        - label: I did not intentionally generate repeated traffic or bypass rate limits to create this report.
+          required: true
+        - label: I distinguish direct observations from hypotheses.
+          required: true
