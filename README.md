@@ -12,6 +12,13 @@
 - Engineer/researcher: [Reproduction matrix](docs/reproduction-matrix.md) | [H0-H12 evidence framework](docs/evidence-quality-hypothesis-matrix.md) | [Engineering decision tree](docs/engineering-decision-tree.md)
 - Contributor: use **Simple problem report** for a basic report or **Independent reproduction** for technical evidence. Never publish private identifiers or generate repeated traffic to reproduce the problem.
 
+## Discoverability V3
+
+- [Public report triage](docs/discoverability-v3-report-triage.md) adds discriminating reports and counterexamples without inflating the causal claim.
+- [Discussions guide](docs/discussions-guide.md) defines safe community entry points.
+- [Release baseline](docs/release-notes-v0.3.0.md) makes the current evidence/engineering state citable.
+- [Social preview specification](docs/social-preview-spec.md) is ready for a later repository-image UI action.
+
 ## Purpose
 This repository documents a persistent reliability problem in which existing or historical ChatGPT chats/conversations may remain visible or searchable but fail to open normally.
 

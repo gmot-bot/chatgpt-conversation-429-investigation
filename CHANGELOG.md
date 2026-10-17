@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+### Discoverability V3
+- Added discriminating public-report triage and a non-429 counterexample.
+- Added Discussions seeding/pinning guidance.
+- Added CITATION.cff and v0.3.0 release notes.
+- Added a privacy-safe social-preview specification.
+
 ### Discoverability V2
 - Added human and engineering entry points.
 - Added safe troubleshooting guidance.

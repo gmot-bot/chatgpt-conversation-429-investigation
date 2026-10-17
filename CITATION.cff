@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you reference this investigation, please cite the repository and the specific evidence document or release used."
+title: "ChatGPT Conversation Loading Failures — HTTP 429, History Retrieval & Realtime Recovery Investigation"
+type: software
+authors:
+  - name: "gmot-bot"
+repository-code: "https://github.com/gmot-bot/chatgpt-conversation-429-investigation"
+url: "https://github.com/gmot-bot/chatgpt-conversation-429-investigation"
+license: "NOASSERTION"
+version: "0.3.0"
+date-released: "2026-10-17"
+keywords:
+  - chatgpt
+  - http-429
+  - too-many-requests
+  - conversation-history
+  - rate-limiting
+  - reliability
+  - incident-analysis
+  - request-amplification
+abstract: "Independent evidence-led investigation of ChatGPT conversation loading failures, HTTP 429 retrieval errors, retry/refetch/recovery behaviour, competing hypotheses and safe mitigations. Root cause not determined."
