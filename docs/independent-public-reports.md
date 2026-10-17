@@ -78,3 +78,19 @@ This independent report contains direct browser DevTools/HAR evidence of repeate
 **Classification:** independent symptom reproduction; independent conversation-retrieval HTTP 429 reproduction; backoff-header reproduction; relevant request-multiplicity observation. Automatic request multiplicity is observed, but its causal contribution to throttling and any common root cause remain NOT DETERMINED.
 
 Source: https://github.com/openai/codex/issues/51478
+
+### `openai/codex#48464` — macOS desktop / Chat
+
+This independent report documents an existing Chat-mode conversation whose refetch transitioned from `idle` to `streaming`, followed by `GET /conversations/{conversation_id}` returning HTTP 429 and a logged refetch failure. A later navigation back to the same desktop conversation again produced a conversation-read 429 while Send and dictation remained disabled. The same conversation loaded successfully in Chrome. The reporter explicitly notes that correlation does not prove that the 429 caused the disabled composer state.
+
+**Classification:** independent symptom reproduction; independent conversation-retrieval HTTP 429 reproduction; relevant refetch/state-recovery evidence. The causal relationship between the retrieval 429 and persistent desktop UI state remains NOT DETERMINED.
+
+Source: https://github.com/openai/codex/issues/48464
+
+### `openai/codex#37518` — macOS desktop / Chat sidebar
+
+This independent report documents focus-triggered sidebar reloads. In one reproduced occurrence, the focused primary renderer initiated four overlapping `GET /conversations` requests and all four returned HTTP 429, followed by short-interval retries. The report also records substantially more `/conversations` 429 responses after an application update than in the previous build. These observations concern conversation-list retrieval rather than proving the same detail-retrieval failure mechanism as the maintainer case.
+
+**Classification:** independent HTTP 429 and request-multiplicity evidence on the conversation-list surface; relevant mechanism evidence. It is not promoted as proof of a common root cause or of the same detail-retrieval limiter.
+
+Source: https://github.com/openai/codex/issues/37518

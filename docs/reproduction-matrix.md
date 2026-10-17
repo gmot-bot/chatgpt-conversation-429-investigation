@@ -15,6 +15,8 @@ This matrix is intentionally conservative. It records evidence classes, not vote
 | `openai/codex#50969` follow-ups — Windows desktop | REPRODUCED externally | Cross-client availability inconsistent | Associated `Too many requests`; exact route not established for every event | Repeated recovery polling documented | NOT DETERMINED |
 | `openai/codex#52884` — macOS desktop / Work web | REPRODUCED externally | Conversation-load failures reported | Generic Web 429 reported; retrieval route not established | Stream/session recovery symptoms reported | NOT DETERMINED |
 | `openai/codex#48393` — Web / Android | REPRODUCED externally | Existing conversations intermittently fail to load | Generic Android 429 reported; retrieval route not established | Not established by source used here | NOT DETERMINED |
+| `openai/codex#48464` — macOS desktop / Chat | REPRODUCED externally | Existing desktop conversation remained non-interactive while same conversation loaded in Chrome | REPRODUCED externally on `GET /conversations/{conversation_id}` | Refetch state transitioned `idle` → `streaming`; later refetch 429 observed; causation not established | NOT DETERMINED |
+| `openai/codex#37518` — macOS desktop / Chat sidebar | REPRODUCED externally | Sidebar reloads on application refocus | REPRODUCED externally on `/conversations` list retrieval | Four overlapping list requests plus short-interval retries observed; applicability to detail retrieval not established | NOT DETERMINED |
 
 ## Promotion criteria
 

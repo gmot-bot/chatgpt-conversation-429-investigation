@@ -82,7 +82,7 @@ Verified independent reports and technically inspected reproductions are catalog
 A conservative cross-report evidence matrix is maintained in [docs/reproduction-matrix.md](docs/reproduction-matrix.md). A separate [system-scale hypothesis](docs/system-scale-hypothesis.md) asks whether correlated recovery/refetch amplification across many simultaneous clients could materially increase aggregate service load. This is explicitly a **HYPOTHESIS**, not a claim that a global overload or cascading failure has occurred.
 
 ## OpenAI Support status
-OpenAI Support has been contacted on multiple occasions and has received additional diagnostic information privately. This public repository intentionally omits private case identifiers, private correspondence and correlation identifiers.
+OpenAI Support has been contacted on multiple occasions and has received additional diagnostic information privately. This public repository intentionally omits private case identifiers, private correspondence and correlation identifiers. A public-safe engineering escalation companion is maintained in [docs/openai-engineering-escalation.md](docs/openai-engineering-escalation.md); identifying correlation material remains private.
 
 ## Privacy and evidence integrity
 Public artefacts are privacy-minimised derivatives created specifically for publication. Sensitive forensic originals and private Engineering derivatives are retained separately and are not part of this repository.
@@ -90,7 +90,7 @@ Public artefacts are privacy-minimised derivatives created specifically for publ
 Absolute timestamps and unique identifiers may be removed from public artefacts. Where relative labels are used, they are explicitly presented as privacy transformations rather than original evidentiary values. No transformed value is represented as an unmodified original.
 
 ## Corrections are part of the investigation
-If stronger evidence contradicts a statement or hypothesis in this repository, the repository should be corrected rather than defended. Confirmed observations, independent reproductions, inferences, hypotheses and unknowns are deliberately maintained as distinct epistemic categories.
+If stronger evidence contradicts a statement or hypothesis in this repository, the repository should be corrected rather than defended. Confirmed observations, independent reproductions, inferences, hypotheses and unknowns are deliberately maintained as distinct epistemic categories. The current consolidated boundary is recorded in [docs/final-epistemic-review.md](docs/final-epistemic-review.md).
 
 ## Contributing
 Technical disagreement is welcome. Unsupported certainty is not. Please read `CONTRIBUTING.md`, `EVIDENCE_POLICY.md` and `PRIVACY.md` before submitting evidence.
