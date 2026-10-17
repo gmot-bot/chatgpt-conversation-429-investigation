@@ -11,10 +11,10 @@ body:
       label: Evidence class
       description: Choose the strongest class directly supported by your evidence; do not infer a mechanism from symptoms alone.
       options:
-        - S0 ? Related symptom report
-        - S1 ? Independent symptom reproduction
-        - S2 ? Independent conversation/history HTTP 429 reproduction
-        - S3 ? Relevant recovery/refetch/retry/fan-out mechanism evidence
+        - S0 - Related symptom report
+        - S1 - Independent symptom reproduction
+        - S2 - Independent conversation/history HTTP 429 reproduction
+        - S3 - Relevant recovery/refetch/retry/fan-out mechanism evidence
         - Hypothesis / analysis only
     validations:
       required: true
@@ -49,8 +49,8 @@ body:
       label: Was HTTP 429 directly observed on conversation/history retrieval?
       options:
         - Not inspected / not established
-        - Yes ? HTTP 429 directly observed on the relevant retrieval path
-        - No ? relevant retrieval request inspected and did not return 429
+        - "Yes - HTTP 429 directly observed on the relevant retrieval path"
+        - "No - relevant retrieval request inspected and did not return 429"
     validations:
       required: true
   - type: input
