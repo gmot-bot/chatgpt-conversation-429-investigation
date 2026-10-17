@@ -23,6 +23,10 @@ This dashboard is intentionally conservative. It will show aggregate tables only
 
 Charts would imply quantitative precision before the sample has passed normalization and deduplication gates. Tables come first. Charts are allowed only when denominators, missing-data rates, duplicate handling and collection period are disclosed.
 
+## V4.5 operational gate
+
+The publication decision is now tracked in [Aggregate Readiness](aggregate-readiness.md). Candidate rows must first pass the [Community Operations](community-operations.md) pipeline and deduplication/privacy review.
+
 ## Publication gate
 
 Before a numerical table is published:

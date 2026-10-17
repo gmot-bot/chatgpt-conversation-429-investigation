@@ -1,0 +1,12 @@
+[
+  {
+    "symptom_family": "EXAMPLE_ONLY_NOT_OBSERVED_DATA",
+    "platform_family": "unknown",
+    "intermittent": "unknown",
+    "recovered_after_wait": "unknown",
+    "remained_visible": "unknown",
+    "terminal_class": "unknown",
+    "evidence_grade": "unknown",
+    "report_count": 1
+  }
+]

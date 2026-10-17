@@ -9,6 +9,10 @@ Browse directly [by error](docs/index-by-error.md), [by platform](docs/index-by-
 
 If a ChatGPT conversation will not open, your history is not loading, or you see an error such as `Too many requests`, you do **not** need technical knowledge to use this page.
 
+## What changed recently?
+
+Returning visitor? See [Latest Community Changes](docs/latest-changes.md) and the [10-second status](STATUS.md).
+
 ## Fastest route
 
 **On a phone:** tap one link, then use your browser Back button to return here.

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Privacy-preserving community aggregate row",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["symptom_family", "platform_family", "terminal_class", "evidence_grade", "report_count"],
+  "properties": {
+    "symptom_family": {"type": "string", "minLength": 1},
+    "platform_family": {"enum": ["web", "windows", "macos", "android", "ios-ipados", "work-project", "other", "unknown"]},
+    "intermittent": {"enum": ["yes", "no", "unknown"]},
+    "recovered_after_wait": {"enum": ["yes", "no", "unknown"]},
+    "remained_visible": {"enum": ["yes", "no", "unknown"]},
+    "terminal_class": {"enum": ["429", "other-4xx", "5xx", "cancellation", "timeout", "other", "unknown"]},
+    "evidence_grade": {"enum": ["S0", "S1", "S2", "S3", "unknown"]},
+    "report_count": {"type": "integer", "minimum": 1}
+  }
+}

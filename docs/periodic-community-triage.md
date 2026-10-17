@@ -2,6 +2,8 @@
 
 Use this checklist for a bounded review of new public contributions. It is a process specification, not a claim that background monitoring is continuously running.
 
+See also the V4.5 [Community Operations](community-operations.md), [Triage Ledger](triage-ledger.md), [Deduplication Protocol](deduplication-protocol.md), and [Freshness Policy](freshness-policy.md).
+
 ## Review cycle
 
 1. Read new Discussions and Issues since the previous recorded checkpoint.

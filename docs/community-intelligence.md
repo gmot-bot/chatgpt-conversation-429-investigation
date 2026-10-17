@@ -53,6 +53,10 @@ The V4.2 baseline is **schema-first**. It does not invent counts from narrative 
 | evidence_grade | S0 / S1 / S2 / S3 |
 | report_count | integer after deduplication |
 
+## V4.5 readiness
+
+See [Aggregate Readiness](aggregate-readiness.md). Numerical publication remains blocked until the gate passes on real normalized, deduplicated, privacy-reviewed contributions.
+
 ## Publication gate
 
 Publish numerical community statistics only after the underlying public reports can be normalized without guessing and the deduplication/privacy review passes. Until then, use qualitative `YES / NOT YET ESTABLISHED` summaries.

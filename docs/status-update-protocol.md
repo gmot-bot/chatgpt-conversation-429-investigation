@@ -6,6 +6,8 @@ This protocol prevents a fast-moving community page from turning unverified anec
 
 Only use public Discussions/Issues, already-public independent evidence, official OpenAI status notices, and public release/change records. Do not ingest private support material into community status.
 
+V4.5 operational details are defined in [Community Operations](community-operations.md) and [Candidate Promotion Rules](candidate-promotion-rules.md). Automatic rules may create candidates only; they cannot promote causal conclusions.
+
 ## Pipeline
 
 `NEW CONTRIBUTION -> PRIVACY -> DEDUP -> CLASSIFY -> VERIFY -> UPDATE CANDIDATE -> READBACK -> PUBLISH`

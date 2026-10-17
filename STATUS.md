@@ -1,6 +1,6 @@
 # Community Status — 10-Second View
 
-> **Unofficial community project. Last project review: 2026-10-17.**
+> **Unofficial community project. Last project review: 2026-10-17.** See [Latest Community Changes](docs/latest-changes.md).
 
 ## Are other people reporting this?
 

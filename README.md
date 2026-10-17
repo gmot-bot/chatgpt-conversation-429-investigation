@@ -11,6 +11,10 @@ Browse: [Known Problems](docs/known-problems.md) · [By error](docs/index-by-err
 **Status:** Active investigation  
 **Root cause:** **NOT DETERMINED**
 
+## Community Operations
+
+V4.5 adds a bounded [Contribution Pipeline](docs/community-operations.md), [Latest Community Changes](docs/latest-changes.md), [Triage Ledger](docs/triage-ledger.md), [Deduplication Protocol](docs/deduplication-protocol.md), and [Aggregate Readiness Gate](docs/aggregate-readiness.md). Automatic rules may surface **candidates only**; they never establish causality.
+
 ## Community Help Centre
 
 **Non-technical visitor?** Open the [Community Help Centre](docs/community-home.md): find your error, see what is known, check safe workarounds, find similar reports, ask the community, or learn GitHub in 60 seconds.
