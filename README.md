@@ -75,6 +75,9 @@ Reports from other users may be classified as a related symptom report, independ
 
 **Common root cause: NOT DETERMINED.**
 
+## Independent public reports
+Verified independent reports and technically inspected reproductions are catalogued in [docs/independent-public-reports.md](docs/independent-public-reports.md). Similar symptoms and HTTP 429 observations increase investigative confidence that the failure class is not unique to this maintainer; they do not establish a common root cause.
+
 ## OpenAI Support status
 OpenAI Support has been contacted on multiple occasions and has received additional diagnostic information privately. This public repository intentionally omits private case identifiers, private correspondence and correlation identifiers.
 
