@@ -1,5 +1,8 @@
 # ChatGPT Historical Chats / Conversations Failing to Open
 
+<p align="center"><img src="assets/chatgpt-community-hero-social-preview.jpg" alt="ChatGPT Conversation Errors — Community Help, Error Library and Investigation" width="100%"></p>
+
+
 > **Need help quickly?** [10-second status](STATUS.md) · [Community Help](HELP.md) · [Known Problems](docs/known-problems.md) · [Workarounds](docs/workarounds-and-solutions.md) · [Discussions](https://github.com/gmot-bot/chatgpt-conversation-429-investigation/discussions) · [New report](https://github.com/gmot-bot/chatgpt-conversation-429-investigation/issues/new/choose) · [GitHub in 60 seconds](docs/github-for-beginners.md)
 
 ## Community status — 10-second view

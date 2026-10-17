@@ -1,5 +1,8 @@
 # Workarounds & Solutions
 
+<p align="center"><a href="../README.md"><img src="../assets/chatgpt-community-hero-social-preview.jpg" alt="ChatGPT Conversation Errors — return to project home" width="420"></a></p>
+
+
 This page separates **safe mitigations** from **confirmed fixes**.
 
 ## Safe first-line actions

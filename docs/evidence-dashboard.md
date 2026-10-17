@@ -1,5 +1,8 @@
 # Evidence Dashboard — Community Sample
 
+<p align="center"><a href="../README.md"><img src="../assets/chatgpt-community-hero-social-preview.jpg" alt="ChatGPT Conversation Errors — return to project home" width="420"></a></p>
+
+
 **Status: SCHEMA READY / NUMERICAL PUBLICATION GATED.**
 
 This dashboard is intentionally conservative. It will show aggregate tables only after enough public reports can be normalized without guessing, deduplicated, and privacy-reviewed.

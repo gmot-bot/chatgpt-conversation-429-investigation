@@ -1,5 +1,8 @@
 # Community Help Centre
 
+<p align="center"><a href="../README.md"><img src="../assets/chatgpt-community-hero-social-preview.jpg" alt="ChatGPT Conversation Errors — return to project home" width="420"></a></p>
+
+
 ## Current status first
 
 Open the [10-second Community Status](../STATUS.md) or [Known Problems / Recently Reported](known-problems.md) before creating a new report. This reduces duplicates and gets visitors to known safe information faster.

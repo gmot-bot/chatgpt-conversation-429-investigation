@@ -1,5 +1,8 @@
 # Other People Are Seeing This
 
+<p align="center"><a href="../README.md"><img src="../assets/chatgpt-community-hero-social-preview.jpg" alt="ChatGPT Conversation Errors — return to project home" width="420"></a></p>
+
+
 This index helps visitors find similar public observations. It is **not a prevalence dashboard** and does not claim that reports share one root cause.
 
 ## Symptom families represented in the current evidence set

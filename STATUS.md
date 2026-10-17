@@ -1,5 +1,8 @@
 # Community Status — 10-Second View
 
+<p align="center"><img src="assets/chatgpt-community-hero-social-preview.jpg" alt="ChatGPT Conversation Errors community status and help" width="560"></p>
+
+
 > **Unofficial community project. Last project review: 2026-10-17.** See [Latest Community Changes](docs/latest-changes.md).
 
 ## Are other people reporting this?

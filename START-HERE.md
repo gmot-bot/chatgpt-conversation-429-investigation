@@ -1,5 +1,8 @@
 # Start Here
 
+<p align="center"><img src="assets/chatgpt-community-hero-social-preview.jpg" alt="ChatGPT Conversation Errors community project overview" width="760"></p>
+
+
 **Non-technical visitor?** Go directly to [Community Help](HELP.md) and the [Error & Problem Library](docs/error-library.md).
 ChatGPT conversations not loading? Seeing `HTTP 429`, `Too many requests`, `Couldn't load this ChatGPT conversation`, or an old/existing chat that remains visible but will not open?
 

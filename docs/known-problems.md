@@ -1,5 +1,8 @@
 # Known Problems / Recently Reported
 
+<p align="center"><a href="../README.md"><img src="../assets/chatgpt-community-hero-social-preview.jpg" alt="ChatGPT Conversation Errors — return to project home" width="420"></a></p>
+
+
 This is the fast community index. It answers five questions: **Are others reporting it? What do we know? Is there a workaround? Is it resolved? Where do I get help?**
 
 > Community reports are self-selected. Counts or frequency here must never be interpreted as ChatGPT-wide prevalence.
