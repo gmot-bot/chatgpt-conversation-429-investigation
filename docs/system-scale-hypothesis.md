@@ -3,7 +3,7 @@
 **Status:** HYPOTHESIS — NOT DETERMINED
 
 ## Question
-Could a request-amplification or recovery/refetch problem become materially worse when the same behaviour occurs across a large number of users at approximately the same time?
+Could a request-amplification or recovery/refetch problem become materially worse when the same behaviour occurs across multiple affected clients at approximately the same time?
 
 ## Why this is worth investigating
 The investigated case and independent public reports demonstrate that conversation retrieval can enter an HTTP 429 state and that recovery/refetch behaviour can coexist with that state. A separate public reproduction in `openai/codex#50000` reported a burst of 22 conversation-retrieval HTTP 429 responses in roughly half a second when an Activity view was populated. Other public reports describe repeated recovery polling or multiple concurrent chats.
@@ -59,4 +59,4 @@ Client-side evidence alone cannot determine whether one million users would shar
 Do not attempt to validate this hypothesis by generating load, coordinating concurrent requests, automating retries, or bypassing rate limits. Validation at meaningful scale belongs in controlled vendor-side load testing, simulation, telemetry analysis, or other authorised environments.
 
 ## Current conclusion
-**System-scale amplification is a technically credible hypothesis and deserves explicit investigation, but it is not a demonstrated root cause.** The strongest next evidence would be server-side telemetry showing whether request amplification is correlated across clients and whether the relevant limiting or retrieval resources are shared at a scale where correlated client behaviour materially changes service load.
+**System-scale amplification is a technically plausible hypothesis worth investigating, but it is not a demonstrated root cause.** The strongest next evidence would be server-side telemetry showing whether request amplification is correlated across clients and whether the relevant limiting or retrieval resources are shared at a scale where correlated client behaviour materially changes service load.

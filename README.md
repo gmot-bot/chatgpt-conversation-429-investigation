@@ -19,7 +19,7 @@ This is not an advocacy, criticism, or reputational campaign against OpenAI. Ref
 The maintainer uses ChatGPT extensively, intends to remain a customer, and has repeatedly engaged OpenAI Support in an effort to diagnose and resolve the problem. Publishing this investigation is intended to complement — not replace — that private support process.
 
 ## About the maintainer
-The maintainer is a long-term ChatGPT customer and an amateur enthusiast of coding, web design and technology who lives with his family in rural Portugal, in a forested area near a river.
+The maintainer is a long-term ChatGPT customer and an amateur enthusiast of coding, web design and technology.
 
 He is not affiliated with OpenAI. This repository is a good-faith attempt to contribute constructively by inviting technically rigorous independent observations, reproductions, explanations and safe mitigation ideas from the wider community.
 
