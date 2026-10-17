@@ -110,3 +110,7 @@ Search/discovery wording and proposed repository metadata are documented in [doc
 
 ## Community participation
 Use **Issues** for structured independent reproductions and **Discussions** for questions, related experiences, hypotheses and evidence interpretation that do not yet meet the issue evidence gate. See [docs/community-participation.md](docs/community-participation.md) for privacy, safety and notification guidance.
+
+## Evidence quality and competing hypotheses
+
+See [Evidence Quality, Hypotheses and Engineering Test Matrix](docs/evidence-quality-hypothesis-matrix.md) for the public-safe evidence framework, H0-H12 registry, failure taxonomy, falsification tests, conditional mitigations, observability wishlist and privacy-preserving contribution protocol. Root cause remains **NOT DETERMINED**.
