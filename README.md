@@ -133,3 +133,12 @@ See [Evidence Quality, Hypotheses and Engineering Test Matrix](docs/evidence-qua
 ## Engineering decision tree
 
 The [evidence-to-hypothesis map and engineering decision tree](docs/engineering-decision-tree.md) maps existing public evidence to H0-H12, identifies discriminators and falsifiers, and prioritizes telemetry that could resolve competing explanations without additional public disclosure.
+
+## Community entry points
+
+- [Start here - affected users](https://github.com/gmot-bot/chatgpt-conversation-429-investigation/discussions/1)
+- [HTTP 429 / Too Many Requests - technical evidence](https://github.com/gmot-bot/chatgpt-conversation-429-investigation/discussions/2)
+- [Safe troubleshooting and mitigations](https://github.com/gmot-bot/chatgpt-conversation-429-investigation/discussions/3)
+- [Hypotheses and engineering analysis](https://github.com/gmot-bot/chatgpt-conversation-429-investigation/discussions/4)
+
+Use Discussions for exploratory/community material and Issues for structured reproductions. See [the Discussions guide](docs/discussions-guide.md) before posting.
