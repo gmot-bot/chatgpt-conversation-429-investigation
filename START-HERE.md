@@ -1,6 +1,6 @@
 # Start Here
 
-<p align="center"><img src="assets/chatgpt-community-hero-social-preview.jpg" alt="ChatGPT Conversation Errors community project overview" width="760"></p>
+<p align="center"><img src="assets/chatgpt-community-hero-social-preview.png" alt="ChatGPT Conversation Errors community project overview" width="760"></p>
 
 
 **Non-technical visitor?** Go directly to [Community Help](HELP.md) and the [Error & Problem Library](docs/error-library.md).

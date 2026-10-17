@@ -1,6 +1,6 @@
 # Community Help — Start Here
 
-<p align="center"><img src="assets/chatgpt-community-hero-social-preview.jpg" alt="Community Help, Error Library and Investigation" width="680"></p>
+<p align="center"><img src="assets/chatgpt-community-hero-social-preview.png" alt="Community Help, Error Library and Investigation" width="680"></p>
 
 
 **Want the fastest current picture?** Open [Community Status](STATUS.md): others reporting it → what we know → workaround → resolved? → help.

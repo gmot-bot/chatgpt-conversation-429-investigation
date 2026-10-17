@@ -1,6 +1,6 @@
 # ChatGPT Error & Problem Library
 
-<p align="center"><a href="../README.md"><img src="../assets/chatgpt-community-hero-social-preview.jpg" alt="ChatGPT Conversation Errors — return to project home" width="420"></a></p>
+<p align="center"><a href="../README.md"><img src="../assets/chatgpt-community-hero-social-preview.png" alt="ChatGPT Conversation Errors — return to project home" width="420"></a></p>
 
 
 This is a non-technical index of symptoms reported around conversation/history access. Matching an error message does **not** prove that two cases have the same technical cause.

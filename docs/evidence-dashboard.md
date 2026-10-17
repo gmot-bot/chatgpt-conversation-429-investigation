@@ -1,6 +1,6 @@
 # Evidence Dashboard — Community Sample
 
-<p align="center"><a href="../README.md"><img src="../assets/chatgpt-community-hero-social-preview.jpg" alt="ChatGPT Conversation Errors — return to project home" width="420"></a></p>
+<p align="center"><a href="../README.md"><img src="../assets/chatgpt-community-hero-social-preview.png" alt="ChatGPT Conversation Errors — return to project home" width="420"></a></p>
 
 
 **Status: SCHEMA READY / NUMERICAL PUBLICATION GATED.**
