@@ -36,3 +36,37 @@ This report describes both existing and newly created conversations becoming una
 Public reports strengthen the conclusion that the user-visible symptom is not unique to this maintainer. Reports containing independently inspected HTTP 429 responses also establish that conversation-loading 429s are not unique to the maintainer's evidence.
 
 They do not establish that every affected account, platform or conversation shares one causal mechanism. `Related report`, `independent symptom reproduction`, `independent HTTP reproduction`, `mechanism evidence`, and `common root cause` remain separate categories throughout this project.
+
+## Additional GitHub reports reviewed — October 2026
+
+### `openai/codex#54014` — macOS desktop
+
+A separate reporter describes a ChatGPT-backed desktop conversation that remained marked active but became inaccessible. The report states that inspected logs contained `Resume stream unavailable` / HTTP 404 and repeated conversation-read HTTP 429 / `Too many requests` responses persisting for more than two hours.
+
+**Classification:** independent symptom reproduction; independent conversation-retrieval HTTP 429 reproduction; relevant stream-recovery evidence. The report does not establish whether the underlying task continued or whether it shares the maintainer's root cause.
+
+Source: https://github.com/openai/codex/issues/54014
+
+### `openai/codex#50969` follow-ups — Windows desktop / ordinary Chat
+
+Although the base issue concerns renderer crashes, later follow-ups separately document ordinary Chat recovery failures. The reporter records `Resume stream unavailable`, subsequent recovery polling rejected with `Too many requests`, and a later recovery loop reaching at least attempt 59 at roughly five-second intervals. Cross-client conversation availability also became inconsistent.
+
+**Classification:** related independent symptom reproduction; strong recovery/polling mechanism evidence associated with `Too many requests`. Because the cited follow-ups do not expose the exact HTTP conversation-read route for every 429, this entry is not promoted here to an independent S2 retrieval reproduction.
+
+Source: https://github.com/openai/codex/issues/50969
+
+### `openai/codex#52884` — macOS desktop and Work web
+
+The base report documents repeated conversation-load and stream/session failures across desktop and web, including a fresh low-context Work conversation. An independent commenter reports the same load error on desktop and web and HTTP 429 responses on web even after respecting `Retry-After`, but does not identify the exact request route in the public comment.
+
+**Classification:** related independent symptom reproduction; generic HTTP 429/backoff corroboration. Not promoted to S2 conversation-retrieval reproduction because the relevant endpoint is not demonstrated in the cited public evidence.
+
+Source: https://github.com/openai/codex/issues/52884
+
+### `openai/codex#48393` — Web / Android
+
+This earlier report describes intermittent existing-conversation load failures on Web and `Too many requests` on Android during normal use. It deliberately makes no root-cause claim. The Android 429 is not tied publicly to a demonstrated conversation/history retrieval endpoint.
+
+**Classification:** related independent symptom report; generic 429 corroboration only. It does not satisfy the S2 retrieval-HTTP-429 gate used by this repository.
+
+Source: https://github.com/openai/codex/issues/48393
