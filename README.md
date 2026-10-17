@@ -4,6 +4,14 @@
 **Status:** Active investigation  
 **Root cause:** **NOT DETERMINED**
 
+## Quick start
+
+**ChatGPT conversations not loading?** If you are seeing `HTTP 429`, `Too many requests`, `Couldn't load this ChatGPT conversation`, a chat that remains visible/searchable but will not open, or repeated retry/refetch/recovery behaviour, start with [START-HERE.md](START-HERE.md).
+
+- Affected user: [Safe troubleshooting](TROUBLESHOOTING.md) | [FAQ](docs/faq.md) | [Known errors/search phrases](docs/known-error-messages.md)
+- Engineer/researcher: [Reproduction matrix](docs/reproduction-matrix.md) | [H0-H12 evidence framework](docs/evidence-quality-hypothesis-matrix.md) | [Engineering decision tree](docs/engineering-decision-tree.md)
+- Contributor: use **Simple problem report** for a basic report or **Independent reproduction** for technical evidence. Never publish private identifiers or generate repeated traffic to reproduce the problem.
+
 ## Purpose
 This repository documents a persistent reliability problem in which existing or historical ChatGPT chats/conversations may remain visible or searchable but fail to open normally.
 

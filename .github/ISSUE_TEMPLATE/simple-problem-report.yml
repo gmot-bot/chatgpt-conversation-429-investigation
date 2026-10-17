@@ -1,0 +1,79 @@
+name: Simple problem report
+description: Report a conversation-loading problem without needing technical diagnostics
+labels: ["needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: "Please remove private data. Do not post email addresses, account/conversation/request IDs, IP addresses, cookies, tokens, precise locations, private chat content or private support correspondence. Do not repeatedly retry or generate load to complete this form."
+  - type: textarea
+    id: symptom
+    attributes:
+      label: What happened?
+      description: Include the exact error wording if possible, without private chat content.
+    validations:
+      required: true
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Where did it happen?
+      options:
+        - Web browser
+        - Windows desktop app
+        - macOS desktop app
+        - Android
+        - iOS / iPadOS
+        - Work / Project surface
+        - Other / unknown
+    validations:
+      required: true
+  - type: dropdown
+    id: conversation_age
+    attributes:
+      label: What kind of conversation?
+      options:
+        - Existing / older conversation
+        - Newly created conversation
+        - Both old and new conversations
+        - Unknown
+    validations:
+      required: true
+  - type: dropdown
+    id: visible
+    attributes:
+      label: Was the conversation still visible in history/search/project?
+      options:
+        - Yes
+        - No
+        - Not checked / unknown
+    validations:
+      required: true
+  - type: dropdown
+    id: intermittent
+    attributes:
+      label: Was the failure intermittent?
+      options:
+        - Yes
+        - No / remained unavailable
+        - Unknown
+    validations:
+      required: true
+  - type: dropdown
+    id: waiting
+    attributes:
+      label: Did it recover after normal waiting without repeated retries?
+      options:
+        - Yes
+        - No
+        - Not observed / unknown
+  - type: textarea
+    id: optional
+    attributes:
+      label: Optional technical observation
+      description: Only include directly observed HTTP status/backoff/recovery information. Do not publish unique identifiers.
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety confirmation
+      options:
+        - label: I removed private identifiers/secrets and did not intentionally generate repeated traffic or bypass rate limits for this report.
+          required: true

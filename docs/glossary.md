@@ -1,0 +1,22 @@
+# Glossary
+
+- **HTTP 429 / Too Many Requests** — a response indicating that a request was rate-limited.
+- **Rate limit** — a policy that limits request volume or rate according to some scope/budget.
+- **Retry-After** — a response signal telling a client how long to wait before retrying.
+- **Backoff** — deliberately waiting between retries, often increasing the delay after repeated failures.
+- **Jitter** — small randomized delay used to prevent many clients retrying simultaneously.
+- **Refetch** — requesting data again, often to refresh client state.
+- **Recovery** — logic intended to restore application state after interruption or failure.
+- **WebSocket / realtime** — a persistent communication channel used for realtime events; its presence near a failure does not prove causation.
+- **Request amplification** — one user action or state change causing multiple downstream requests.
+- **Thundering herd** — many clients or operations retrying/reconnecting at roughly the same time.
+- **Single-flight / request coalescing** — combining equivalent in-flight work so one operation can serve multiple consumers.
+- **Circuit breaker** — temporarily stopping repeated operations after failures to prevent a feedback loop.
+- **Stale state** — client state that no longer reflects the authoritative state.
+- **State reconciliation** — bringing local/client state back into agreement with the authoritative result.
+- **Cancellation / abort** — terminating an in-flight operation; distinct from a server returning HTTP 429.
+- **Race condition** — outcome depending on timing/order between concurrent operations.
+- **Cache revalidation** — checking whether cached data is still current before reusing or replacing it.
+- **Observability** — logs, metrics, traces and structured telemetry used to understand system behaviour.
+- **Root cause** — a causally demonstrated underlying mechanism, not merely a correlated symptom.
+- **Falsifier** — evidence that would materially weaken or reject a hypothesis.
