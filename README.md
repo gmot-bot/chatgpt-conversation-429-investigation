@@ -107,3 +107,6 @@ This guide is deliberately diagnostic rather than prescriptive: similar UI sympt
 
 ## Repository discoverability
 Search/discovery wording and proposed repository metadata are documented in [docs/repository-discoverability-plan.md](docs/repository-discoverability-plan.md). Topics and search phrases are treated as navigation aids, not as evidence of causation.
+
+## Community participation
+Use **Issues** for structured independent reproductions and **Discussions** for questions, related experiences, hypotheses and evidence interpretation that do not yet meet the issue evidence gate. See [docs/community-participation.md](docs/community-participation.md) for privacy, safety and notification guidance.

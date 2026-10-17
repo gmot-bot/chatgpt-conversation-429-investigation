@@ -27,3 +27,6 @@ Similar symptoms are not automatically evidence of the same root cause. Maintain
 
 ## Conduct
 Technical disagreement, alternative explanations and attempts to falsify hypotheses are welcome. Personal attacks, speculation presented as fact, vendor-bashing, credential disclosure, privacy-invasive investigation and attempts to identify contributors are not.
+
+## Issues and Discussions
+Use the structured issue form for evidence-bearing independent reproductions. Use GitHub Discussions for questions, related experiences, alternative explanations and hypotheses that are not yet sufficiently evidenced for an issue. See `docs/community-participation.md`.
