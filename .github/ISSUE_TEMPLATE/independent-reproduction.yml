@@ -1,5 +1,5 @@
 name: Independent reproduction
-about: Report independently observed evidence without publishing sensitive identifiers
+description: Report independently observed evidence without publishing sensitive identifiers
 labels: ["needs-evidence"]
 body:
   - type: markdown
