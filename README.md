@@ -114,3 +114,7 @@ Use **Issues** for structured independent reproductions and **Discussions** for 
 ## Evidence quality and competing hypotheses
 
 See [Evidence Quality, Hypotheses and Engineering Test Matrix](docs/evidence-quality-hypothesis-matrix.md) for the public-safe evidence framework, H0-H12 registry, failure taxonomy, falsification tests, conditional mitigations, observability wishlist and privacy-preserving contribution protocol. Root cause remains **NOT DETERMINED**.
+
+## Engineering decision tree
+
+The [evidence-to-hypothesis map and engineering decision tree](docs/engineering-decision-tree.md) maps existing public evidence to H0-H12, identifies discriminators and falsifiers, and prioritizes telemetry that could resolve competing explanations without additional public disclosure.
