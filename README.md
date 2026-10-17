@@ -4,6 +4,12 @@
 **Status:** Active investigation  
 **Root cause:** **NOT DETERMINED**
 
+## Need help? No technical knowledge required
+
+If a ChatGPT conversation will not open, your history is not loading, or you see an error message, start with **[Community Help](HELP.md)**. Use the [Error & Problem Library](docs/error-library.md) to find your symptom, read safe steps, compare similar reports, or ask the community.
+
+This is an **unofficial community project**. It cannot access your ChatGPT account or replace OpenAI Support. You do not need to publish technical logs to ask for help.
+
 ## Quick start
 
 **ChatGPT conversations not loading?** If you are seeing `HTTP 429`, `Too many requests`, `Couldn't load this ChatGPT conversation`, a chat that remains visible/searchable but will not open, or repeated retry/refetch/recovery behaviour, start with [START-HERE.md](START-HERE.md).

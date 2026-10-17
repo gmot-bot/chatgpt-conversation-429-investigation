@@ -1,5 +1,6 @@
 # Start Here
 
+**Non-technical visitor?** Go directly to [Community Help](HELP.md) and the [Error & Problem Library](docs/error-library.md).
 ChatGPT conversations not loading? Seeing `HTTP 429`, `Too many requests`, `Couldn't load this ChatGPT conversation`, or an old/existing chat that remains visible but will not open?
 
 This repository is an independent, evidence-led investigation of conversation/history loading failures, retrieval throttling, retry/refetch/recovery behaviour and adjacent failure modes. **Root cause is not determined.** Similar UI symptoms can have different technical causes.

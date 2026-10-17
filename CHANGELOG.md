@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+### V4 - Community Help & Error Library
+- Added a non-technical help landing page and problem finder.
+- Added an Error & Problem Library and six symptom/error pages.
+- Added beginner GitHub/community instructions and community triage rules.
+- Added a low-barrier Community help Issue form.
+- Preserved the technical evidence boundary: root cause remains NOT DETERMINED.
+
 ### Discoverability V3
 - Added discriminating public-report triage and a non-429 counterexample.
 - Added Discussions seeding/pinning guidance.
