@@ -70,3 +70,11 @@ This earlier report describes intermittent existing-conversation load failures o
 **Classification:** related independent symptom report; generic 429 corroboration only. It does not satisfy the S2 retrieval-HTTP-429 gate used by this repository.
 
 Source: https://github.com/openai/codex/issues/48393
+
+### `openai/codex#51478` — ChatGPT Web / Windows desktop
+
+This independent report contains direct browser DevTools/HAR evidence of repeated HTTP 429 responses on both `/backend-api/conversation/{conversation_id}` and `/backend-api/conversations/{conversation_id}`. It also reports `Retry-After` and `x-oai-history-initial-retry-after`, later HTTP 200 recovery after the interval, and multiple automatic conversation-detail requests during ordinary frontend navigation.
+
+**Classification:** independent symptom reproduction; independent conversation-retrieval HTTP 429 reproduction; backoff-header reproduction; relevant request-multiplicity observation. Automatic request multiplicity is observed, but its causal contribution to throttling and any common root cause remain NOT DETERMINED.
+
+Source: https://github.com/openai/codex/issues/51478
