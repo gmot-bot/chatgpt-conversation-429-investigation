@@ -32,3 +32,7 @@ This matrix is intentionally conservative. It records evidence classes, not vote
 
 ## Platform interpretation
 Cross-platform observations increase the priority of explanations above a single browser profile or single local cache. They do not prove that Web, Windows, macOS, Android and iOS use identical retrieval/recovery paths or share the same limiting scope.
+
+## Adjacent discriminator reviewed after the matrix baseline
+
+`openai/codex#54568` (Windows/macOS desktop) documents an existing conversation history-refresh failure with short-lived client/transport cancellation and stale/error-state handling. It is intentionally **not** inserted as an S2 row above because the reviewed evidence does not demonstrate HTTP 429 on the cancelled history operation. Its value is as an adjacent mechanism discriminator: similar user-visible refresh failures can arise from cancellation/state-management evidence without establishing the same retrieval-throttling mechanism.

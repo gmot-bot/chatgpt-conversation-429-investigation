@@ -97,3 +97,13 @@ Technical disagreement is welcome. Unsupported certainty is not. Please read `CO
 
 ## Scope and non-affiliation
 This is an independent community investigation. It is not an OpenAI project and is not endorsed by OpenAI. OpenAI and ChatGPT are referenced only as necessary to identify the affected product. No negligence, misconduct, intentional throttling, defective design or specific root cause is alleged without evidence.
+
+
+## Troubleshooting and engineering guide
+For a compact public-safe guide covering common search phrases, safe first actions, known mitigation boundaries, falsifiability criteria and high-value Engineering questions, see [docs/discoverability-and-engineering-guide.md](docs/discoverability-and-engineering-guide.md).
+
+This guide is deliberately diagnostic rather than prescriptive: similar UI symptoms can arise from distinct mechanisms, and **root cause remains NOT DETERMINED**.
+
+
+## Repository discoverability
+Search/discovery wording and proposed repository metadata are documented in [docs/repository-discoverability-plan.md](docs/repository-discoverability-plan.md). Topics and search phrases are treated as navigation aids, not as evidence of causation.

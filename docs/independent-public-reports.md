@@ -94,3 +94,14 @@ This independent report documents focus-triggered sidebar reloads. In one reprod
 **Classification:** independent HTTP 429 and request-multiplicity evidence on the conversation-list surface; relevant mechanism evidence. It is not promoted as proof of a common root cause or of the same detail-retrieval limiter.
 
 Source: https://github.com/openai/codex/issues/37518
+
+
+### `openai/codex#54568` — Windows/macOS desktop / history refresh cancellation
+
+This newer independent report describes an existing Dot conversation reopening with cached messages and then a `Couldn't refresh messages` / retry state. On Windows, selected logs show the initial history fetch being aborted after roughly 70–85 ms and reported as `client.history ... load_failed`; later unrelated requests returned HTTP 200. A macOS comparison on the same reported build also observed short-lived room/history cancellations and later successful room/history operations.
+
+The report proposes cancellation ownership/controller replacement as a static-code hypothesis, but explicitly lacks a runtime abort call stack and does not prove a Windows/macOS common root cause. It does **not** demonstrate HTTP 429 on the cancelled history operation.
+
+**Classification:** independent history-refresh failure and cancellation/state-handling mechanism evidence; useful adjacent discriminator. Not S2 conversation-retrieval HTTP 429 evidence, and not proof of the same root cause as this repository's investigated case.
+
+Source: https://github.com/openai/codex/issues/54568

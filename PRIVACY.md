@@ -16,3 +16,7 @@ Do not attempt to identify, geolocate, correlate or deanonymise contributors. Co
 
 ## Private vendor correlation
 Information useful for server-side correlation may be materially more identifying than public evidence. Send such information only through an appropriate private vendor/support channel; do not mirror it into public issues.
+
+
+## Git metadata and linked-profile boundary
+Public-file redaction does not automatically anonymise Git commit metadata or the public account profile hosting the repository. Before publication, review author/committer names and email addresses as well as any profile fields that the maintainer chooses to expose. Prefer a provider-supported no-reply commit address where appropriate. This repository does not require history rewriting merely to remove non-sensitive information that the maintainer has explicitly chosen to retain.
